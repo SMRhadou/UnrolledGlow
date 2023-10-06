@@ -1,0 +1,16 @@
+python3 main.py \
+--Trial constrained \
+--dataset CelebA-HQ \
+--nBits 5 \
+--iSize 64 \
+--problem inpainting \
+--painting_size 24 \
+--nLayers 5 \
+--depth 18 \
+--nLevels 4 \
+--batchSize 8 \
+--nEpochs 100 \
+--lr 1e-5 \
+--lr_dual 1e-3 \
+--eps 0.05 \
+--gpuID 1
